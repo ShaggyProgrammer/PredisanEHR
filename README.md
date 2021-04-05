@@ -1,3 +1,15 @@
+## predisan-specific documentation
+
+# installing
+
+1. Clone this repo
+2. Download cerepa.box from https://drive.google.com/file/d/1Y3knab3c2ypWtrZjfs7wXcoGTUfgPGsL/view?usp=sharing and place the file in the PredisanEHR directory
+3. Inside of the PredisanEHR directory, open a command prompt and run **vagrant box add cerepa cerepa.box**
+4. In the same command prompt run **vagrant init cerepa**
+5. In the same command prompt run **vagrant up**
+
+## bahmni-specific documentation
+
 # bahmni-vagrant
 
 Management of Vagrant box using Packer.  Out-Of-The-Box bahmni on CentOS 6.8
@@ -9,7 +21,7 @@ Please follow the steps mentioned in this document on wiki to setup Bahmni Vagra
 [Bahmni Vagrant Box Setup](https://bahmni.atlassian.net/wiki/display/BAH/Bahmni+Virtual+Box)
 
 
-# Understanding Packer (For Developers)
+# Understanding Packer (For Developers) **Unused for Predisan_EHR** 
 
 Packer is a tool provided by Hashicorp, for creating a Vagrant box out of template VMs. This repository
 contains Packer code for creating Bahmni vagrant boxes. For more details on understanding Packer please

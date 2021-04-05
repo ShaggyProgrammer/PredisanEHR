@@ -1,7 +1,6 @@
-/packer/template_rendered.json
 /backup/data
 /backup/artifacts
 .vagrant
 .idea
-packer/packer_cache/
 Vagrantfile
+cerepa.box
