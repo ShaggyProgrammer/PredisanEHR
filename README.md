@@ -3,7 +3,7 @@
 # installing
 
 1. Clone this repo
-2. Download cerepa.box from https://drive.google.com/file/d/1Y3knab3c2ypWtrZjfs7wXcoGTUfgPGsL/view?usp=sharing and place the file in the PredisanEHR directory
+2. Download cerepa.box from https://drive.google.com/file/d/10ZXnN9vX9vIb9DQpIvKkmfn7Hxd7V_a9/view?usp=sharing and place the file in the PredisanEHR directory
 3. Inside of the PredisanEHR directory, open a command prompt and run **vagrant box add cerepa cerepa.box**
 4. In the same command prompt run **vagrant init cerepa**
 5. In the same command prompt run **vagrant up**
