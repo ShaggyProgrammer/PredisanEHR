@@ -8,6 +8,15 @@
 4. In the same command prompt run **vagrant init cerepa**
 5. In the same command prompt run **vagrant up**
 
+# updating (with new cerepa.box file)
+1. overwrite old cerepa.box file with new one
+2. delete old vagrantfile
+3. Inside of the PredisanEHR directory, open a command prompt and run **vagrant destroy** type y if it asks for confirmation
+4. In the same command prompt run **vagrant box remove cerepa**
+5. In the same command prompt run **vagrant box add cerepa cerepa.box**
+6. In the same command prompt run **vagrant init cerepa**
+7. In the same command prompt run **vagrant up**
+
 ## bahmni-specific documentation
 
 # bahmni-vagrant
